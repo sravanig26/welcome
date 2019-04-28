@@ -203,7 +203,7 @@ public class Calculator implements ActionListener
 		if(e.getSource()==b16)
         {
 			s1 = tf.getText();
-            tf.setText("");
+            tf.setText(s1+"+");
             c=1;
         }
 		if(e.getSource()==b17)
